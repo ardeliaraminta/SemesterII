@@ -18,7 +18,7 @@ int main(){
     cout << "BEFORE SWAP: First number's address is " << &a << " and the Second number's address is " << &b << endl;
 	
 	// try to swap
-	swap(a, b);
+	swap(&a, &b);
 	
 	// print before swap
 	cout << endl << "AFTER SWAP: First number is " << a << " and the Second number is " << b << endl;
@@ -27,11 +27,11 @@ int main(){
 	
 }
 
-void swap(int *a, int *b){
+void swap(int *x, int *y){
     int swaps; 
-    swaps = *a;
-    *a = *b;
-    *b = *a;
+    swaps = *x;
+    *x = *y;
+    *y = *x;
 
     return;
 

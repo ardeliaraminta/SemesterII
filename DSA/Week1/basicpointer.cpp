@@ -15,13 +15,13 @@ int main(){
 
     x = 115;
 
-    cout<<" The address of pi :  " << ptr << endl;
+    cout<< endl<<" The address of pi :  " << ptr << endl;
     cout<<" The value of pi : " << *ptr << endl;
 
     int *cats; new int; 
     *cats = 333;
 
-    cout<<" The address of pi :  " << cats << endl;
+    cout<< endl<<" The address of pi :  " << cats << endl;
     cout<<" The value of pi : " << *cats << endl;
 
 }
