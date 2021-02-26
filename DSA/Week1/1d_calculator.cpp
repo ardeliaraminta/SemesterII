@@ -61,5 +61,8 @@ double multiply(double a, double b){
     return a*b;
 }
 double divide(double a, double b){
-    return a/b;
+    if(b == 0)
+        cout<< "Numerator is division cannot be 0 " <<endl;
+    else
+        return a/b;
 }
