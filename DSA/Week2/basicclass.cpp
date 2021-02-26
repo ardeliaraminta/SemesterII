@@ -45,8 +45,8 @@ int Box::calculateArea(){
 
 int main () {
     // you have to create an object before being able to call its name
-    Box mybox;
-    mybox.calculateArea();
+    Box box;
+    box.calculateArea();
 
     return 0;
 

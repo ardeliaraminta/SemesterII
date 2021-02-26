@@ -48,7 +48,10 @@ int main(){
             cout << "Wrong Option" << endl;
 }
 
-
+/*
+pre : condition: double value, but the second data cannot be 0
+post-condition : result of division otherwise undefine if the second input data is zero
+*/
 
 }
 double add (double a, double b){

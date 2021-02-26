@@ -40,8 +40,6 @@ class Triangle: public Shape{
 		}
 	
 };
-int main(void) {
-    
-}
+int main(void) {}
 
 // your code here
