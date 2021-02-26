@@ -40,6 +40,37 @@ class Triangle: public Shape{
 		}
 	
 };
-int main(void) {}
+
+class Rectagle: public Shape{
+	public:
+		int getArea(){ 
+			int area = getWidth()*getHeight();
+			return area;
+
+		}
+};
 
 // your code here
+int main() {
+	Triangle myT = Triangle();
+	Rectagle myR = Rectagle();
+
+	myT.setWidth(4);
+	myT.setHeight(3);
+
+	myR.setWidth(5);
+	myR.setHeight(15);
+
+//getter
+
+cout << "My triangle's width is " << myT.getWidth() <<endl;
+cout << "My triangle's height is " << myT.getHeight() <<endl;
+cout << "My triangle's area is " << myT.getArea() << endl;
+
+cout << "My rectangle's width is " << myR.getWidth() <<endl;
+cout << "My rectangle's height is " << myR.getHeight() <<endl;
+cout << "My rectagle's area is " << myR.getArea() << endl;
+
+	
+
+};
