@@ -41,7 +41,7 @@ class Triangle: public Shape{
 	
 };
 
-class Rectagle: public Shape{
+class Rectangle: public Shape{
 	public:
 		int getArea(){ 
 			int area = getWidth()*getHeight();
@@ -53,7 +53,7 @@ class Rectagle: public Shape{
 // your code here
 int main() {
 	Triangle myT = Triangle();
-	Rectagle myR = Rectagle();
+	Rectangle myR = Rectangle();
 
 	myT.setWidth(4);
 	myT.setHeight(3);
