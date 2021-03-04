@@ -51,3 +51,38 @@ int main () {
     return 0;
 
 }
+
+#include <iostream>
+using namespace std;
+
+// base class or super class
+class Shape {
+	public:
+		int getWidth(){
+			return width;
+		}
+		
+		int getHeight(){
+			return height;
+			
+		}
+		void setWidth(int w){
+			width = w;	
+		}
+	
+		void setHeight(int h){
+			height = h;	
+		}
+		
+		int getArea(){
+			return width*height;
+		}
+        Shape(int w, int h){
+            int weight;
+            int height;
+		}
+	private:
+		int width;
+		int height;
+	
+};
