@@ -1,3 +1,3 @@
 # SemesterII
 
-BINUS SEMESTER 2
+hewo this is just repo for exercise : D 
