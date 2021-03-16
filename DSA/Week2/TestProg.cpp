@@ -1,15 +1,44 @@
-#include <iostream>
-#include <string>
-#include "SimpleLL.h"
+class Stack
+{
+private:
+	int st[MAX],
+	int top=-1;
 
-using namespace std;
+public:
 
-int main(){
-	SimpleLL list;
-	int num;
+	void push(int val) {
+		if(top>=MAX-1)
+		cout << " Overflow " << endl;
+		else {
+			top++;
+			st[top] = val; 
+		}
+		
+	}
 	
-	cout << "Enter a number. If you type -999, it will stop building the list." << endl;
-	cin >> name;
-
-
-// Your code here
+	int Stack::pop(){
+		if(top <= -1 || top == 0)
+		cout << " Underflow " << endl;
+		else {
+			cout << "the pop element : " st[top] << endl;
+			top--;
+		}
+	}
+	
+	int Stack::peek() {
+	if(top == 0){
+		return st[top];
+	}else {
+		cout << "no data" << endl; 
+	}
+	
+	void Stack::display() {
+		if(top > = 0){
+			cout << "Stack elements are: ";
+			for ( int i = top; i>= 0; i--)
+			cout << stack[i] << " ";
+			cout<< endl; 
+		}else
+		cout << " Stack is empty ";	
+	}
+}
