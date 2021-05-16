@@ -1,7 +1,7 @@
 package Week9;
 
-public class Reptile extends Animals{
-    public Reptile(){
+    public class Shark extends Animals{
+    public Shark(){
         super();
     }
 
