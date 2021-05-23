@@ -5,7 +5,7 @@ public class Main {
 
         Animals t = new Animals();
         Animals s = new Shark();
-        Animals g = new Shark();
+        Animals g = new Animals();
 
         // both has the same sound of eating ( static)
         t.eatFood();
