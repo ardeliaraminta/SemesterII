@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="arraybasedlist">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DSA/arraybasedlist.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
